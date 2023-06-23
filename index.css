@@ -24,17 +24,19 @@ body {
     height: 350px; 
     background-color: hsl(217, 19%, 24%);
     box-shadow:  0px 0px 5px  hsl(220, 19%, 16%);
+    position: relative;
 }
 
 .adviceDiv {
     display: flex;
     justify-content: center;
+    gap: 8px;
     align-items: center;
     flex-direction: row;
     font-weight: 800;
     color: hsl(150, 100%, 66%);
     position: absolute;
-    margin-bottom: 250px;
+    top: 25px;
     letter-spacing: 4px;
     font-size: 13px;
 }
@@ -55,7 +57,7 @@ body {
 
 #btn {
     position: absolute;
-    margin-top: 350px;
+    bottom: -35px;
     border-radius: 50%;
     border:0;
     height: 70px;
@@ -67,7 +69,7 @@ body {
 
 #dividerDesktop {
     position: absolute;
-    margin-top: 220px;
+    bottom: 55px;
 }
 
 #dividerMobile {
