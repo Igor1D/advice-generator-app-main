@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 body {
     display: flex;
     justify-content: center;
@@ -6,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
 
 }
 
@@ -14,19 +17,85 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 3%;
+    border-radius: 10px;
     margin: 0;
     padding: 0;
-    width: 500px;
-    height: 300px; 
+    width: 550px;
+    height: 350px; 
     background-color: hsl(217, 19%, 24%);
-    box-shadow:  0 0 5px  hsl(217, 19%, 24%);
+    box-shadow:  0px 0px 5px  hsl(220, 19%, 16%);
 }
 
-#adviceDiv{
+.adviceDiv {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    font-weight: 800;
+    color: hsl(150, 100%, 66%);
+    position: absolute;
+    margin-bottom: 250px;
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+
+
+
+#adviceText {
+    text-align: center;
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+}
+
+#btn {
+    position: absolute;
+    margin-top: 350px;
+    border-radius: 50%;
+    border:0;
+    height: 70px;
+    width: 70px;
+    background-color:  hsl(150, 100%, 66%);
+    cursor: pointer;
+    
+}
+
+#dividerDesktop {
+    position: absolute;
+    margin-top: 220px;
+}
+
+#dividerMobile {
+    display: none;
+}
+
+
+
+@media (max-width: 560px) {
+
+    .mainDiv {
+        width: 90%;
+    }
+
+    #adviceText {
+        font-size: 24px;
+    }
+
+
+
+    #dividerDesktop {
+        display: none;
+    }
+
+    #dividerMobile {
+        margin-top: 220px;
+        position: absolute;
+        display: block;
+    }
 
 }
