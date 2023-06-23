@@ -78,6 +78,10 @@ body {
 
 @media (max-width: 560px) {
 
+    body {
+        height: 90vh;
+    }
+
     .mainDiv {
         width: 90%;
     }
