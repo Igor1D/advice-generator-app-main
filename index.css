@@ -57,13 +57,16 @@ body {
 
 #btn {
     position: absolute;
-    bottom: -35px;
+    bottom: -37px;
     border-radius: 50%;
     border:0;
     height: 70px;
     width: 70px;
     background-color:  hsl(150, 100%, 66%);
     cursor: pointer;
+    color: #111;
+    background: hsl(150, 100%, 66%);
+    box-shadow: 0 0 25px hsl(150, 100%, 66%);
     
 }
 
